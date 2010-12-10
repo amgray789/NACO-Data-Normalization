@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NACO.Data
+</name>
+</assembly>
+<members>
+<member name="P:NACO.Data.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:NACO.Data.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:NACO.Data.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:NACO.Data.Normalization.normalize(System.String,System.Boolean)">
+	<summary> Convert all of the characters in a string according to the Authority File Comparison rules. Uses the Unicode character for the musical flat and uses 0x1F for the subfield delimiter.
+ <paramref name="ptr">a UTF-8 string containing subfield delimiters (0x1F), subfield codes and subfield contents. Multiple subfields are expected but the marc tag and indicators are not expected.</paramref>
+		<paramref name="leaveFirstComma">flag to leave the first non-trailing comma in the first subfield 'a'.</paramref>
+		<paramref name="return">a normalized string</paramref>
+	</summary>
+</member>
+</members>
+</doc>

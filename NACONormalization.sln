@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NACO.Data", "NACONormalization\NACO.Data.vbproj", "{39BCAAC4-9EB5-4D9F-AD82-64E31CA5A77B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NACO.UnitTest", "NACO.UnitTest\NACO.UnitTest.vbproj", "{B123FDEE-0175-4FB2-895F-7C01141F20F5}"
+EndProject
+
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ..\..\..\..\Local Settings\Application Data\Temporary Projects\NACONormalization\SampleETLJob.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39BCAAC4-9EB5-4D9F-AD82-64E31CA5A77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BCAAC4-9EB5-4D9F-AD82-64E31CA5A77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BCAAC4-9EB5-4D9F-AD82-64E31CA5A77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BCAAC4-9EB5-4D9F-AD82-64E31CA5A77B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

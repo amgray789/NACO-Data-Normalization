@@ -1,0 +1,9 @@
+C:\Documents and Settings\AMG.USP_AD\My Documents\Visual Studio 2008\Projects\NACONormalization\NACONormalization\bin\Debug\NACO.Data.dll
+C:\Documents and Settings\AMG.USP_AD\My Documents\Visual Studio 2008\Projects\NACONormalization\NACONormalization\bin\Debug\NACO.Data.pdb
+C:\Documents and Settings\AMG.USP_AD\My Documents\Visual Studio 2008\Projects\NACONormalization\NACONormalization\bin\Debug\NACO.Data.xml
+C:\Documents and Settings\AMG.USP_AD\My Documents\Visual Studio 2008\Projects\NACONormalization\NACONormalization\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\AMG.USP_AD\My Documents\Visual Studio 2008\Projects\NACONormalization\NACONormalization\obj\Debug\NACO.Data.Resources.resources
+C:\Documents and Settings\AMG.USP_AD\My Documents\Visual Studio 2008\Projects\NACONormalization\NACONormalization\obj\Debug\NACO.Data.vbproj.GenerateResource.Cache
+C:\Documents and Settings\AMG.USP_AD\My Documents\Visual Studio 2008\Projects\NACONormalization\NACONormalization\obj\Debug\NACO.Data.dll
+C:\Documents and Settings\AMG.USP_AD\My Documents\Visual Studio 2008\Projects\NACONormalization\NACONormalization\obj\Debug\NACO.Data.xml
+C:\Documents and Settings\AMG.USP_AD\My Documents\Visual Studio 2008\Projects\NACONormalization\NACONormalization\obj\Debug\NACO.Data.pdb

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NACO.Data
+</name>
+</assembly>
+<members>
+<member name="P:NACO.Data.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:NACO.Data.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:NACO.Data.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:NACO.Data.Normalization.normalize(System.String,System.Boolean)">
+	<summary>Convert all of the characters in a string according to the Authority File Comparison rules. Uses the Unicode character for the musical flat and uses 0x1F for the subfield delimiter.
+ <paramref name="ptr">a UTF-8 string containing subfield delimiters (0x1F), subfield codes and subfield contents. Multiple subfields are expected but the marc tag and indicators are not expected.</paramref>
+		<paramref name="leaveFirstComma">flag to leave the first non-trailing comma in the first subfield 'a'.</paramref>
+		<paramref name="return">a normalized string</paramref>
+	</summary>
+</member><member name="M:NACO.Data.Normalization.NormalizeSimplified(System.String)">
+	<summary>Convert all of the characters in a string according to the Authority File Comparison rules. Uses the Unicode character for the musical flat and uses blank for the subfield delimiter. All commas are converted to blanks.
+ <paramref name="ptr">a UTF-8 string containing subfield delimiters (0x1F), subfield codes and subfield contents. Multiple subfields are expected but the marc tag and indicators are not expected.</paramref>
+		<paramref name="return">a normalized string</paramref>
+	</summary>
+</member><member name="M:NACO.Data.Normalization.NormalizeStandard(System.String,System.Boolean,System.Char,System.Char)">
+	<summary>Convert all of the characters in a string according to the Authority File Comparison rules.
+ <paramref name="ptr">a UTF-8 string containing subfield delimiters (0x1F), subfield codes and subfield contents. Multiple subfields are expected but the marc tag and indicators are not expected.</paramref>
+		<paramref name="leaveFirstComma">flag to leave the first non-trailing comma in THe first subfield 'a'.</paramref>
+		<paramref name="musicalFlat">character to use for outputting musical flats</paramref>
+		<paramref name="return">a normalized string</paramref>
+ '''</summary>
+</member><member name="T:NACO.Data.Normalization">
+	<summary>
+ Copyright (c) 2000-2002 OCLC Online Computer Library Center, Inc. and other contributors. All rights reserved.
+ The contents of this file, as updated from time to time by the OCLC Office of Research, are subject to OCLC Research Public License Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a current copy of the License at http://purl.oclc.org/oclc/research/ORPL/.  Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.  This software consists of voluntary contributions made by many individuals on behalf of OCLC Research. For more information on OCLC Research, please see http://www.oclc.org/oclc/research/.
+ 
+ The Original Code is NACO.java.
+ The Initial Developer of the Original Code is Jenny Toves.
+
+ The Current Code is Normalization.vb.
+ Current developer: Anthony Gray (yho15524429@yahoo.com)
+
+ NACO.Data.Normalization methods perform normalizations on input strings according to the Authority File Comparison Rules set forth at http://www.loc.gov/catdir/pcc/naco/normrule.html
+</summary>
+</member>
+</members>
+</doc>

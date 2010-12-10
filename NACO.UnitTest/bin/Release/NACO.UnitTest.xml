@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NACO.UnitTest
+</name>
+</assembly>
+<members>
+<member name="P:NACO.UnitTest.NormalizationTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:NACO.UnitTest.NormalizationTest.NormalizeSimplifiedTest">
+	<summary>
+A test for normalize
+</summary>
+</member><member name="M:NACO.UnitTest.NormalizationTest.NormalizeStandardTest">
+	<summary>
+A test for normalize
+</summary>
+</member><member name="T:NACO.UnitTest.NormalizationTest">
+	<summary>
+This is a test class for NormalizationTest and is intended
+to contain all NormalizationTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>
